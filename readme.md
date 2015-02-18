@@ -9,17 +9,19 @@ On Linux with the **apt-get** package manager:
     sudo apt-get install mosquitto
     sudo apt-get install mosquitto-clients
 
-**Note**: ``mosquitto-clients`` is to get the **mosquitto_pub** to make it simple to try stuff from the command line.
+**Note**: ``mosquitto-clients`` is to get the **mosquitto_pub** to make it simple to try stuff from the command line. You could leave it out and only use the supplied ``publisher.py``.
 
 Also install [virtualenv](https://pypi.python.org/pypi/virtualenv) if you want to use it (recommended):
 
     sudo apt-get install python-virtualenv
 
 
-## Working directory
+## Setup
 The use of virtualenv is optional but recommended for playing around with this example code.
 
-    mkdir mqtt-mosquitto-example
+Simply clone this repo, setup virtualenv and use pip to install requirements.
+
+    git clone https://github.com/roppert/mosquitto-python-example.git
     cd mqtt-mosquitto-example
     virtualenv .
     source bin/activate
