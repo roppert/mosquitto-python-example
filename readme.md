@@ -39,8 +39,9 @@ Then open a new terminal and send a message:
 
 This should generate a message in the terminal running the subscriber.
 
-Take a look at **publisher.py** to see how to publish messages using python. Or just run it from command line while **subscriber.py** is running:
+Take a look at **publisher.py** to see how to publish messages using python. Or just open another terminal and run it from command line while **subscriber.py** is running:
 
+    source bin/activate
     ./publisher.py
 
 
